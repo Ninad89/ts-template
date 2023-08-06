@@ -25,7 +25,7 @@ jobs:
     - name: Npm install
       run: npm ci
     - name: Lint
-      run: npm run tslint
+      run: npm run lint
     - name: Unit test
       run: npm test
     - name: Build
