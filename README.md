@@ -11,6 +11,7 @@ This project includes
 - eslint setup
 - pretier setup
 - commitlint setup
+- Github actions for CI and npm publish
 ---
 ### How to
 - Get started
@@ -34,6 +35,6 @@ This project includes
 
 ### Todo
  - *How To* guide
- - github actions
+ -  github actions
  - fork this for api with docker setup
  ---
