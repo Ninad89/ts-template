@@ -8,13 +8,16 @@ on:
     branches:
       - 'main'
       - 'feature/**'
+      - 'feat/**'
+      - 'fix/**'
+      - 'chore/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x,18.x]
+        node-version: [16.x,18.x,20.x]
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
